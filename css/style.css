@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  color: hsl(234, 12%, 34%);
+}
+
+h3,
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+/* Estilos generales */
+.wrapper {
+  width: 80%;
+  max-width: 1440px;
+  margin: 2rem auto;
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 33.33%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Estilos especificos */
+
+.intro {
+  width: 35%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.intro h3 {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.intro h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.wrapper article {
+  padding: 1.5rem;
+  border-top: 6px solid hsl(0, 78%, 62%);
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 0 rgb(0, 0, 0, 0.05);
+}
+
+.wrapper article p {
+  margin: 1rem 0 2rem;
+}
+
+.wrapper article div {
+  text-align: right;
+}
+
+.wrapper article img {
+  vertical-align: middle;
+}
+
+/*****  Footer *****/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive */
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 50%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex-basis: 100%;
+  }
+}
+
+/* movil */
+@media screen and (max-width: 420px) {
+  .wrapper {
+    width: 90%;
+  }
+}
