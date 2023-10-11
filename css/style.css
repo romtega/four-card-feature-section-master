@@ -37,8 +37,8 @@ p {
 }
 
 .heading-primary {
-  margin-bottom: 1.5rem;
   font-size: 3rem;
+  margin-bottom: 1.5rem;
   color: var(--dark-blue);
 }
 
@@ -48,8 +48,8 @@ p {
 }
 
 .heading-tertiary {
-  font-weight: var(--light-font);
   font-size: 3rem;
+  font-weight: var(--light-font);
   color: var(--dark-blue);
 }
 
@@ -123,6 +123,11 @@ p {
 }
 /* MEDIA QUERIES */
 
+@media (max-width: 1120px) {
+  .intro p {
+    margin: 0 20rem;
+  }
+}
 
 @media (max-width: 375px) {
   .heading-primary {
@@ -141,6 +146,7 @@ p {
     font-size: 1.4rem;
     margin: 0 1.7rem;
   }
+
   .cards {
     flex-direction: column;
     margin: 0 3rem 2rem;
